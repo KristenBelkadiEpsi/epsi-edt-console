@@ -46,6 +46,7 @@ async fn recuperer_infos(
             jours_semaine.push(lundi_date + Duration::days(i as i64));
         }
         let selecteur_case: Selector = Selector::parse(".Case").unwrap();
+        std::thread::sleep(std::time::Duration::from_secs(1));
         let liste_case: Vec<ElementRef> = parseur_html.select(&selecteur_case).collect();
         liste_case[0..(liste_case.len() - 1)]
             .iter()
