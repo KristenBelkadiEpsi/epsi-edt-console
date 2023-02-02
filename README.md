@@ -1,5 +1,4 @@
-# Brouillon affichage console de l'emploi du temps EPSI
-
+# Brouillon affichage console de l'emploi du temps EPSI (fonctionne bof)
 ## instructions
 
 - aller à la racine du projet 
